@@ -1,0 +1,59 @@
+**<mark>机器学习</mark>**
+
+1.基本概念：让机器寻找一个函式
+
+2.不同的类型:
+
+    regression：让函式输出一个数值
+
+    classification：让函式输出一个选项
+
+    structured learning：让函式输出一个带有结构的内容，如：文章，图表等
+
+3.寻找函式的步骤（**训练**）
+
+    写一个未知数的函数式
+
+    从训练集中计算loss
+
+    优化（Gradient Descent）
+
+![](https://cdn.jsdelivr.net/gh/kiyo439/my-image-bed@main/C%3A%5CUsers%5CZhuanZ%5CDesktop%5Cmarkdown%E5%9B%BE%E7%89%87%E5%B1%8F%E5%B9%95%E6%88%AA%E5%9B%BE%202026-02-28%20103716.png)
+
+4.linear models:    **x为feature，w为weight**
+
+![](https://cdn.jsdelivr.net/gh/kiyo439/my-image-bed@main/C%3A%5CUsers%5CZhuanZ%5CDesktop%5Cmarkdown%E5%9B%BE%E7%89%87%E5%B1%8F%E5%B9%95%E6%88%AA%E5%9B%BE%202026-02-28%20103952.png)
+
+（局限性：存在 model bias）
+
+**<mark>深度学习（接机器学习）</mark>**
+
+深度学习示意图：
+
+![](./assets/2026-02-28-11-31-23-image.png)
+
+1.**改进优化：**
+
+![屏幕截图 2026-02-28 110225.png](./assets/aa64f9b6105cb86c953e112b12e03d4b0ff12c82.png)
+
+![](https://cdn.jsdelivr.net/gh/kiyo439/my-image-bed@main/C%3A%5CUsers%5CZhuanZ%5CDesktop%5Cmarkdown%E5%9B%BE%E7%89%87%E5%B1%8F%E5%B9%95%E6%88%AA%E5%9B%BE%202026-02-28%20111429.png)
+
+3.Sigmoid：
+
+![](./assets/2026-02-28-11-29-19-image.png)
+
+4.ReLU：
+
+![](./assets/2026-02-28-11-29-44-image.png)
+
+4.overfitting：
+
+![](https://cdn.jsdelivr.net/gh/kiyo439/my-image-bed@main/C%3A%5CUsers%5CZhuanZ%5CDesktop%5Cmarkdown%E5%9B%BE%E7%89%87%E5%B1%8F%E5%B9%95%E6%88%AA%E5%9B%BE%202026-02-28%20112521.png)
+
+**<mark>数据集</mark>**
+
+1.训练集：训练模型得到特定参数集
+
+2.验证集：在各种超参数模型下进行评估，找到最优的参数
+
+3.测试集：评估最后得到的模型的性能

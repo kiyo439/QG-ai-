@@ -1,0 +1,35 @@
+**<mark>前向传播（网络的预测过程）</mark>**
+
+1.工作原理：
+
+![](https://cdn.jsdelivr.net/gh/kiyo439/my-image-bed@main/C%3A%5CUsers%5CZhuanZ%5CDesktop%5Cmarkdown%E5%9B%BE%E7%89%87%E5%B1%8F%E5%B9%95%E6%88%AA%E5%9B%BE%202026-03-02%20154641.png)
+
+2.常见的几类**激活函数：**
+
+    sigmoid：缺点：容易产生**梯度消失**
+
+![](https://cdn.jsdelivr.net/gh/kiyo439/my-image-bed@main/C%3A%5CUsers%5CZhuanZ%5CDesktop%5Cmarkdown%E5%9B%BE%E7%89%87%E5%B1%8F%E5%B9%95%E6%88%AA%E5%9B%BE%202026-03-02%20154911.png)
+
+![](https://cdn.jsdelivr.net/gh/kiyo439/my-image-bed@main/C%3A%5CUsers%5CZhuanZ%5CDesktop%5Cmarkdown%E5%9B%BE%E7%89%87%E5%B1%8F%E5%B9%95%E6%88%AA%E5%9B%BE%202026-03-02%20154959.png)
+
+    ReLU：缺点：输入小于零时，神经元会处于**熄灭状态**
+
+![](https://cdn.jsdelivr.net/gh/kiyo439/my-image-bed@main/C%3A%5CUsers%5CZhuanZ%5CDesktop%5Cmarkdown%E5%9B%BE%E7%89%87%E5%B1%8F%E5%B9%95%E6%88%AA%E5%9B%BE%202026-03-02%20155212.png)
+
+    Leaky ReLU：
+
+    ![](https://cdn.jsdelivr.net/gh/kiyo439/my-image-bed@main/C%3A%5CUsers%5CZhuanZ%5CDesktop%5Cmarkdown%E5%9B%BE%E7%89%87%E5%B1%8F%E5%B9%95%E6%88%AA%E5%9B%BE%202026-03-02%20155453.png)
+
+**<mark>反向传播（网络的学习过程）</mark>**
+
+![](https://cdn.jsdelivr.net/gh/kiyo439/my-image-bed@main/C%3A%5CUsers%5CZhuanZ%5CDesktop%5Cmarkdown%E5%9B%BE%E7%89%87%E5%B1%8F%E5%B9%95%E6%88%AA%E5%9B%BE%202026-03-02%20161555.png)
+
+**<mark>机器学习的类别</mark>**
+
+1.监督学习：用**有标签**的数据来训练模型
+
+2.无监督学习：让机器自主去发掘数据的内在结构，**数据无标签**，只有输入
+
+3.半监督学习：用**少量有标签**的样本和**大量无标签**的样本进行机器学习
+
+4.强化学习：机器通过与**环境的交互**，目标是开发一个**智能体**，通过**环境的反馈**，提高决策的**准确性**

@@ -1,0 +1,21 @@
+<mark>**多元微分学**</mark>
+
+1.偏导数：立体直角坐标系中求Z关于X轴或Y轴的变化情况
+
+2.计算方法：对于多元函数f(x,y)，求y的导数时就**把x看作常数**，求x的导数就**把y看作常数**
+
+3.符号含义
+
+![](https://cdn.jsdelivr.net/gh/kiyo439/my-image-bed@main/C%3A%5CUsers%5CZhuanZ%5CDesktop%5Cmarkdown%E5%9B%BE%E7%89%87%E5%B1%8F%E5%B9%95%E6%88%AA%E5%9B%BE%202026-02-25%20155300.png)
+
+4.多元函数极值求法:
+
+![](https://cdn.jsdelivr.net/gh/kiyo439/my-image-bed@main/C%3A%5CUsers%5CZhuanZ%5CDesktop%5Cmarkdown%E5%9B%BE%E7%89%87%E5%B1%8F%E5%B9%95%E6%88%AA%E5%9B%BE%202026-02-25%20154935.png)
+
+5.条件极值：
+
+    做拉格朗日函数：L(x,y,z) = f(x,y)**(目标函数)** + zg(x,y)**(约束条件)**
+
+    ![](https://cdn.jsdelivr.net/gh/kiyo439/my-image-bed@main/C%3A%5CUsers%5CZhuanZ%5CDesktop%5Cmarkdown%E5%9B%BE%E7%89%87%E5%B1%8F%E5%B9%95%E6%88%AA%E5%9B%BE%202026-02-25%20163336.png)f
+
+    **解此方程组所得的f(x,y)即为在约束条件下可能的极值点**
